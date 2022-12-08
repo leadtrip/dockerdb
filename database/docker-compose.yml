@@ -1,9 +1,8 @@
 version: "3.8"
 
 services:
-  hops-db:
-    image: localhost/hops/hops-database
-    container_name: ${HOPS_DB_NAME}
+  mike-db:
+    image: localhost/mike/mike-database
     ports:
       - "1521:1521"
     environment:
